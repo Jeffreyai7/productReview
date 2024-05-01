@@ -14,7 +14,11 @@
 <body class="fraunces">
 <main class="wrapper">
 <div class="imgDiv">
-  <img id="productImage" src="images/image-product-desktop.jpg" alt="product image" srcset="">
+  <picture>
+    <source media="(min-width: 768px)" srcset="images/image-product-desktop.jpg">
+    <img src="images/image-product-mobile.jpg" alt="{alternative text here}">
+  </picture>
+<!-- <img id="productImage" src="images/image-product-desktop.jpg" alt="product image" srcset=""> -->
 </div>
 <div class="content">
   <h3 class="montserrat">Perfume</h3>
